@@ -31,4 +31,3 @@ jobs:
       - name: show password
         run: echo "${{ steps.generatePassword.outputs.password }}"
         shell: bash
-      
